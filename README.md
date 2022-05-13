@@ -1,4 +1,4 @@
-###THIS IS A FORKED REPO FROM https://github.com/google/analytics-settings-database
+### THIS IS A FORKED REPO FROM https://github.com/google/analytics-settings-database
 Deploy script modified to set all relevant locations to EU and updated the BQ Schema
 
 
