@@ -20,11 +20,14 @@ This repository contains code for a Google Cloud Function that loads Universal G
 
 1. Navigate to your Google Cloud project and open Cloud Shell
 2. Enter the following into Cloud Shell:
-
+For location US:
 ```
 rm -rf analytics-settings-database && git clone https://github.com/google/analytics-settings-database.git && cd analytics-settings-database && bash deploy.sh
 ```
-
+For location EU:
+```
+rm -rf analytics-settings-database && git clone https://github.com/google/analytics-settings-database.git && cd analytics-settings-database && bash deploy_eu.sh
+```
 3. Enter the information when prompted during the deployment process. When asked if unauthenticated invocations should be allowed for the Cloud Function, answer no.
 4. This will create the following:
     *   A Cloud Function
