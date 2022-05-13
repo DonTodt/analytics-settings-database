@@ -2,7 +2,7 @@
   {
     "mode": "NULLABLE",
     "name": "update_time",
-    "type": "DATETIME"
+    "type": "TIMESTAMP"
   },
   {
     "mode": "NULLABLE",
@@ -37,11 +37,11 @@
   {
     "mode": "NULLABLE",
     "name": "customer_id",
-    "type": "STRING"
+    "type": "INT64"
   },
   {
     "mode": "NULLABLE",
     "name": "create_time",
-    "type": "DATETIME"
+    "type": "TIMESTAMP"
   }
 ]

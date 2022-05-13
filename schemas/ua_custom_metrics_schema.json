@@ -5,7 +5,7 @@
       "mode":"NULLABLE"
    },
    {
-      "type":"STRING",
+      "type":"INT64",
       "name":"max_value",
       "mode":"NULLABLE"
    },

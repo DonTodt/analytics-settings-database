@@ -86,7 +86,7 @@
       "mode":"NULLABLE"
    },
    {
-      "type":"INT64",
+      "type":"FLOAT",
       "name":"value",
       "mode":"NULLABLE"
    },

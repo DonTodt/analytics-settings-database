@@ -47,7 +47,7 @@
     },
     {
       "mode": "NULLABLE",
-      "name": "measurement_id",
+      "name": "measurment_id",
       "type": "STRING"
     },
     {

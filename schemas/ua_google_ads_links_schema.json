@@ -1,1 +1,93 @@
-[{"type": "STRING", "name": "kind", "mode": "NULLABLE"}, {"type": "STRING", "name": "name", "mode": "NULLABLE"}, {"fields": [{"type": "STRING", "name": "kind", "mode": "NULLABLE"}, {"type": "STRING", "name": "customerId", "mode": "NULLABLE"}, {"type": "BOOL", "name": "autoTaggingEnabled", "mode": "NULLABLE"}], "type": "RECORD", "name": "adWordsAccounts", "mode": "REPEATED"}, {"fields": [{"fields": [{"type": "STRING", "name": "kind", "mode": "NULLABLE"}, {"type": "STRING", "name": "name", "mode": "NULLABLE"}, {"type": "STRING", "name": "internalWebPropertyId", "mode": "NULLABLE"}, {"type": "STRING", "name": "href", "mode": "NULLABLE"}, {"type": "STRING", "name": "id", "mode": "NULLABLE"}, {"type": "STRING", "name": "accountId", "mode": "NULLABLE"}], "type": "RECORD", "name": "webPropertyRef", "mode": "NULLABLE"}], "type": "RECORD", "name": "entity", "mode": "NULLABLE"}, {"type": "STRING", "name": "profileIds", "mode": "REPEATED"}, {"type": "STRING", "name": "id", "mode": "NULLABLE"}, {"type": "STRING", "name": "selfLink", "mode": "NULLABLE"}]
+[
+    {
+        "type": "STRING",
+        "name": "kind",
+        "mode": "NULLABLE"
+    },
+    {
+        "type": "STRING",
+        "name": "name",
+        "mode": "NULLABLE"
+    },
+    {
+        "fields": [
+            {
+                "type": "STRING",
+                "name": "kind",
+                "mode": "NULLABLE"
+            },
+            {
+                "type": "STRING",
+                "name": "customerId",
+                "mode": "NULLABLE"
+            },
+            {
+                "type": "BOOL",
+                "name": "autoTaggingEnabled",
+                "mode": "NULLABLE"
+            }
+        ],
+        "type": "RECORD",
+        "name": "adWordsAccounts",
+        "mode": "REPEATED"
+    },
+    {
+        "fields": [
+            {
+                "fields": [
+                    {
+                        "type": "STRING",
+                        "name": "kind",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "type": "STRING",
+                        "name": "name",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "type": "INT64",
+                        "name": "internalWebPropertyId",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "type": "STRING",
+                        "name": "href",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "type": "STRING",
+                        "name": "id",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "type": "INT64",
+                        "name": "accountId",
+                        "mode": "NULLABLE"
+                    }
+                ],
+                "type": "RECORD",
+                "name": "webPropertyRef",
+                "mode": "NULLABLE"
+            }
+        ],
+        "type": "RECORD",
+        "name": "entity",
+        "mode": "NULLABLE"
+    },
+    {
+        "type": "INT64",
+        "name": "profileIds",
+        "mode": "REPEATED"
+    },
+    {
+        "type": "STRING",
+        "name": "id",
+        "mode": "NULLABLE"
+    },
+    {
+        "type": "STRING",
+        "name": "selfLink",
+        "mode": "NULLABLE"
+    }
+]
