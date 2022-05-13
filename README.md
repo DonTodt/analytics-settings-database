@@ -19,7 +19,7 @@ This repository contains code for a Google Cloud Function that loads Universal G
 
 
 1. Navigate to your Google Cloud project and open Cloud Shell
-2. Enter the following into Cloud Shell:
+2. Enter the following into Cloud Shell: \
 For location US:
 ```
 rm -rf analytics-settings-database && git clone https://github.com/google/analytics-settings-database.git && cd analytics-settings-database && bash deploy.sh
